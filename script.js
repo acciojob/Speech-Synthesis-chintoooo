@@ -1,12 +1,11 @@
-// Your script here.
 const textInput = document.getElementById("text-input");
 const voiceSelect = document.getElementById("voice-select");
 const rateInput = document.getElementById("rate");
 const pitchInput = document.getElementById("pitch");
 const rateValue = document.getElementById("rate-value");
 const pitchValue = document.getElementById("pitch-value");
-const speakBtn = document.getElementById("speak-btn");
-const stopBtn = document.getElementById("stop-btn");
+const speakBtn = document.getElementById("speak");
+const stopBtn = document.getElementById("stop");
 
 const synth = window.speechSynthesis;
 let voices = [];
